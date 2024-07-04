@@ -1,11 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEST</title>
+    <title>Mon Site Vitrine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        nav {
+            float: right;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .showcase {
+            background: #fff;
+            min-height: 400px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px 0;
+            background: #f9f9f9;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    moi 
+    <header>
+        <div class="container">
+            <h1>Mon Site Vitrine</h1>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="accueil" class="showcase">
+        <div class="container">
+            <h2>Accueil</h2>
+            <p>Bienvenue sur notre site vitrine.</p>
+        </div>
+    </section>
+
+    <section id="a-propos" class="section">
+        <div class="container">
+            <h2>À propos</h2>
+            <p>Informations sur votre entreprise ou vous-même.</p>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <p>Liste de vos services.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p>Exemples de vos réalisations.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Informations de contact et formulaire de contact.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Droit d'auteur &copy; 2024 Mon Site Vitrine. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
